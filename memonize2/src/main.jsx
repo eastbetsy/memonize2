@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // Your main layout component
-import './index.css'; // Includes Tailwind styles
+import App from './App';
+import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Import page components
 import HomePage from './pages/HomePage';
 import NotesPage from './pages/NotesPage';
 import FlashcardsPage from './pages/FlashcardsPage';
